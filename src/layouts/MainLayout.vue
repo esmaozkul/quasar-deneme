@@ -15,6 +15,30 @@
         <q-item-label header> Essential Links </q-item-label>
 
         <EssentialLink v-for="link in linksList" :key="link.title" v-bind="link" />
+
+        <q-separator class="q-my-sm" />
+
+        <q-item-label header> Sayfalar </q-item-label>
+
+        <q-item clickable v-ripple to="/anasayfa">
+          <q-item-section avatar>
+            <q-icon name="home" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>Anasayfa</q-item-label>
+            <q-item-label caption>Uygulamanın giriş sayfası</q-item-label>
+          </q-item-section>
+        </q-item>
+
+        <q-item clickable v-ripple to="/hakkimizda">
+          <q-item-section avatar>
+            <q-icon name="info" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>Hakkımızda</q-item-label>
+            <q-item-label caption>Uygulama hakkında</q-item-label>
+          </q-item-section>
+        </q-item>
       </q-list>
     </q-drawer>
 
