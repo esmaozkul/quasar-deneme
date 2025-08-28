@@ -46,8 +46,4 @@ quasar dev
 
 ## 📜 Lisans
 
-Bu proje **eğitim amaçlıdır** ve kişisel kullanım için serbesttir.
-
----
-
-💡 İpucu: Daha fazla bileşen ekleyerek Quasar’ın gücünü keşfedin! 🔥
+Bu proje **eğitim amaçlıdır** ve kişisel kullanım için serbesttir
